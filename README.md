@@ -1,1 +1,1 @@
-⚾ Go Yankees
+⚾
