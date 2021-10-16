@@ -1,2 +1,3 @@
-⚾ Somewhere, something incredible is waiting to be known. ⚾
-      -Carl Sagan
+Hello! 👋 I like baseball ⚾, American history, and financial markets.
+BS in Finance 📈
+US Army veteran 🐜
