@@ -1,3 +1,3 @@
-Hello 👋 I like baseball, American history, and financial markets. ⚾🖋️ 
+Hello 👋 I like baseball, history, & financial markets. ⚾🖋️ 
 
-BS in Finance 📈 Army veteran to coding bootcamp
+BS in Finance 📈 Army vet to coding bootcamp
