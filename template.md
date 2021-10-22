@@ -32,46 +32,37 @@ These steps are covered in acquire.py.
 
 Step 3: Prepare Data
 
-* Drop columns missing over forty percent of data.
-* Impute building quality and lot size with median.
-* Drop any rows missing other columns.
-* Convert zip codes, heating system, pool count, and tax delinquecy flag categorical variables using one-hot encoding.
-* Drop outliers based on target variable (outside 1st and 99th percentile.)
-* Split data into 70/15/15 training/validation/test sets.
-* 
+* Drop columns
+* Impute
+* Convert categorical variables using one-hot encoding.
+* Drop outliers 
+* Split 
+
 These steps are covered in prepare.py.
 
 Step 4: Explore & Preprocess
 
 * Visualize attributes & interactions (Python: seaborn and matplotlib).
 * Plot correlation matrix of features.
-* Drop multicollinear features with variable inflation factors over ten.
+* Drop multicollinear features
 
 Analyze: statistically and more generally (Python: statsmodels, numpy, scipy, scikit-learn).
 
 Step 5: Model
 
-* Constant (mean of training target error) can't be beat.
-* Create clusters. They don't predict logerror and can be discarded.
-* Many combinations of features can match mean but never beat it. For example, use price per square foot to make a linear model that mimics the baseline model.
+* Constant (mean of training target error) baseline
+* Linear regression
 
 Models used:
 
 * KMeans
 * LinearRegression (OLS)
 * TweedieRegressor (GLM)
-* LassoLars (LAR with regularization)
-* LinearRegression with PolynomialFeatures
 
 ## Hypotheses
 
 * Location (county and/or zip code) is driving log error.
 * Finished square feet is driving log error.
-* The ratio of building size to lot size is driving log error.
-* Clusters based on latitude and longitude will identify coastal properties an these are driving log error.
-* Properties with many outlying features are driving log error.
-
-None of these hypotheses were correct.
 
 ## Results
 
