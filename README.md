@@ -1,3 +1,3 @@
-Hello 👋 I like baseball, history, & volatile markets. ⚾🖋️ 
+Hello 👋 I like baseball, history, & inefficient markets. ⚾🖋️ 
 
-BS in Finance 📈 Army vet to coding bootcamp.
+BS Finance / Economics 📈 US Army to coding bootcamp.
