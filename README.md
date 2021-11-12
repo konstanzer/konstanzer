@@ -1,3 +1,3 @@
-Hello 👋 I like baseball, history, & inefficient markets. ⚾🖋️ 
+Hello 👋 I like baseball, history, & markets. ⚾🖋️ 
 
 BS Finance / Economics 📈 US Army to coding bootcamp.
